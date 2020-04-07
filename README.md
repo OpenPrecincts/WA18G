@@ -182,6 +182,8 @@ All reasons listed in the tables below described why the precinct shapes in the 
 Accordingly, these votes could not be attributed to any specific precinct geometry.
 
 
+The table below contains additional election results that were not included in this election shapefile. The reason for their ommision is specified in the right most column. 
+
 |precinct|G18DStHou1|G18DStHou2|G18DStSen|G18DHOR|G18DSEN|G18IStHou1|G18IStHou2|G18IStSen|G18LStHou1|G18LStHou2|G18LStSen|G18LHOR|G18NPStHou1|G18NPStHou2|G18NPStSen|G18NPHOR|G18NPSEN|G18RStHou1|G18RStHou2|G18RStSen|G18RHOR|G18RSEN|loc_prec               |reason                                         |
 |--------|----------|----------|---------|-------|-------|----------|----------|---------|----------|----------|---------|-------|-----------|-----------|----------|--------|--------|----------|----------|---------|-------|-------|-----------------------|-----------------------------------------------|
 |Snohomish,1.02e+07 : SILER(*)|0.0       |0.0       |0.0      |0.0    |0.0    |0.0       |0.0       |0.0      |0.0       |0.0       |0.0      |0.0    |0.0        |0.0        |0.0       |0.0     |0.0     |0.0       |0.0       |0.0      |0.0    |0.0    |SILER(*)               | Duplicate                                     |
