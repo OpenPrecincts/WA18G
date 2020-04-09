@@ -15,7 +15,7 @@ Source files and addiontal supporting documentation can also be found in [this r
 * `county`: County name
 * `countyFips`: County FIPS code
 * `precinct`: Precinct code
-* `prec_name`: Precinct name (not all precincts have a name so its more useful because its a )
+* `prec_name`: Precinct name (not all precincts have a name, but `prec_name` was useful for matching in some counties.)
 * `FullPrc`: Unique identifier for rows in the source shapefile
 * `G18DSEN`: General 2018 U.S. Senate Democratic Party Candidate
 * `G18RSEN`: General 2018 U.S. Senate Republican Party Candidate
