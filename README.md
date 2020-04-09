@@ -3,6 +3,7 @@
 This shapefile combines election results with precinct geometries for the 2018 Washington State General Election.
 
 ## Sources
+
 For the shapefile I am using the file named "2018Precincts_VERIFIED.zip" at [this link.](https://www.sos.wa.gov/elections/research/precinct-shapefiles.aspx)
 
 Election results come from the [MIT Election Data Science Lab](https://github.com/MEDSL/2018-elections-official/blob/master/precinct_2018.zip).
@@ -50,9 +51,8 @@ The MIT election results dataset is processed to be sorted by precinct and aggre
 
 All reasons listed in the tables below described why the precinct shapes in the [source shapefile](https://www.sos.wa.gov/elections/research/precinct-shapefiles.aspx) had no corresponding eleciton results. The reasons were verified with the approriate county board of elections.
 
-- Precincts with no voters were zero filled for all election contests
-- Precinct geometries that were combined with another precinct by the county were [dissolved](https://grindgis.com/software/qgis/basic-editing-tools-in-qgis) into the precinct to which their votes were allocated. 
-
+* Precincts with no voters were zero filled for all election contests
+* Precinct geometries that were combined with another precinct by the county were [dissolved](https://grindgis.com/software/qgis/basic-editing-tools-in-qgis) into the precinct to which their votes were allocated.
 
 [Benton](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Benton%20County)
 |CountyCd|PrcCode|FullPrc   |prec_name  |population estimate|reason|
@@ -71,19 +71,19 @@ All reasons listed in the tables below described why the precinct shapes in the 
 |BE      |99     |BE00000099|Hanford 1  |3         | No voters
 
 [Grant](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Grant%20County)
-|CountyCd|PrcCode|FullPrc   |prec_name|population|reason    |
+|CountyCd|PrcCode|FullPrc   |prec_name|population estimate|reason    |
 |--------|-------|----------|---------|----------|----------|
 |GR      |0      |GR00000000|         |0         | No voters|
 
 [Grays Harbor](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/GraysHarbor%20County)
-|CountyCd|PrcCode|FullPrc   |prec_name  |population|reason    |
+|CountyCd|PrcCode|FullPrc   |prec_name  |population estimate|reason    |
 |--------|-------|----------|-----------|----------|----------|
 |GY      |092    |GY00000092|Ocosta 092 |87        | No voters|
 |GY      |603    |GY00000603|Montesano 603|0         | No voters|
 
 
 [Lewis](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Lewis%20County)
-|CountyCd|PrcCode|FullPrc   |prec_name  |population|reason    |
+|CountyCd|PrcCode|FullPrc   |prec_name  |population estimate|reason    |
 |--------|-------|----------|-----------|----------|----------|
 |LE      |20     |LE00000020|Fair       |0         | No Voters|
 |LE      |27     |LE00000027|Jackson North|0         | No Voters|
@@ -93,7 +93,7 @@ All reasons listed in the tables below described why the precinct shapes in the 
 
 
 [Okanogan](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Okanogan%20County)
-|CountyCd|PrcCode|FullPrc   |prec_name  |population|reason|
+|CountyCd|PrcCode|FullPrc   |prec_name  |population estimate|reason|
 |--------|-------|----------|-----------|----------|------|
 |OK      |227    |OK00000227|OKANOGAN AIRPORT|3         |Merged “OKANOGAN AIRPORT”/227 into “ELMWAY”/17|
 |OK      |228    |OK00000228|BREWSTER AIRPORT|4         |Merged “BREWSTER AIRPORT”/228 into “BREWSTER FLAT”/179|
@@ -131,7 +131,7 @@ All reasons listed in the tables below described why the precinct shapes in the 
 |PI      |29-662 |PI00029662|29-662   |0         | No voters
 
 [Snohomish county](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Snohomish%20County)
-|CountyCd|PrcCode |FullPrc   |prec_name|population|reason|
+|CountyCd|PrcCode |FullPrc   |prec_name|population estimate|reason|
 |--------|--------|----------|---------|----------|------|
 |SN      |13918904|SN13918904|         |0         |No voters      |
 |SN      |13918914|SN13918914|         |186       |No voters      |
@@ -155,15 +155,14 @@ All reasons listed in the tables below described why the precinct shapes in the 
 |SN      |73238910|SN73238910|         |141       |No voters      |
 |SN      |73238917|SN73238917|         |0         |No voters      |
 
-
 [Walla Walla](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/WallaWalla%20County)
-|CountyCd|PrcCode |FullPrc   |prec_name|population|reason|
+|CountyCd|PrcCode |FullPrc   |prec_name|population estimate|reason|
 |--------|--------|----------|---------|----------|------|
 |WL      |30      |WL00000030|         |2         | No voters|
 
 
 [Yakima County](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Yakima%20County)
-|CountyCd|PrcCode |FullPrc   |prec_name|population|reason|
+|CountyCd|PrcCode |FullPrc   |prec_name|population estimate|reason|
 |--------|--------|----------|---------|----------|------|
 |YA      |160     |YA00000160|         |0         |No voters
 |YA      |2100    |YA00002100|         |68        |No voters
@@ -181,8 +180,7 @@ All reasons listed in the tables below described why the precinct shapes in the 
 
 Accordingly, these votes could not be attributed to any specific precinct geometry.
 
-
-The table below contains additional election results that were not included in this election shapefile. The reason for their ommision is specified in the right most column. 
+The table below contains additional election results that were not included in this election shapefile. The reason for their ommision is specified in the right most column.
 
 |precinct|G18DStHou1|G18DStHou2|G18DStSen|G18DHOR|G18DSEN|G18IStHou1|G18IStHou2|G18IStSen|G18LStHou1|G18LStHou2|G18LStSen|G18LHOR|G18NPStHou1|G18NPStHou2|G18NPStSen|G18NPHOR|G18NPSEN|G18RStHou1|G18RStHou2|G18RStSen|G18RHOR|G18RSEN|loc_prec               |reason                                         |
 |--------|----------|----------|---------|-------|-------|----------|----------|---------|----------|----------|---------|-------|-----------|-----------|----------|--------|--------|----------|----------|---------|-------|-------|-----------------------|-----------------------------------------------|
@@ -206,7 +204,8 @@ The table below contains additional election results that were not included in t
 |Whatcom,271 : 271(*)|0.0       |0.0       |0.0      |0.0    |0.0    |0.0       |0.0       |0.0      |0.0       |0.0       |0.0      |0.0    |0.0        |0.0        |0.0       |0.0     |0.0     |0.0       |0.0       |0.0      |0.0    |0.0    |Whatcom,271            | Duplicate                                     |
 |Yakima,1 : 0001 - COUNTY COURTHOUSE(*)|0.0       |0.0       |0.0      |0.0    |0.0    |0.0       |0.0       |0.0      |0.0       |0.0       |0.0      |0.0    |0.0        |0.0        |0.0       |0.0     |0.0     |0.0       |0.0       |0.0      |0.0    |0.0    |Yakima,1               | Precinct consolidated to protect voter privacy|
 
-# Washington Secretary of State 2018 Election Shapefile
-In the process of creating this election shapefile, I was in touch with the office of Washington's Secretary of State. Through our correspondence I learned that they had prepared a file similar to what I had created. Aftering comparing my shapefile with theirs I found a number of difference within Okanogan County. 
+## Washington Secretary of State 2018 Election Shapefile
 
-Earlier in the process, I had reached out to Okanogan County Board of elections to inquire about a few precinct shapes that didn't have any election results. I learned that some precincts were combined with other precincts in that election in order to protect voter privacy in precincts with low turnout. They sent me a [spreadsheet](https://github.com/OpenPrecincts/WA18G/blob/master/geometries_missing_results_by_county/Okanogan%20County/Master%20Precinct%20List%20General%20Nov%206%2C02018.xlsx) detailing these aggregations which I executed in QGIS using the dissolve funciton. The Washington SOS's shapefile is missing such revisions, so I believe that this file is more accurate. 
+In the process of creating this election shapefile, I was in touch with the office of Washington's Secretary of State. Through our correspondence I learned that they had prepared a file similar to what I had created. Aftering comparing my shapefile with theirs I found a number of difference within Okanogan County.
+
+Earlier in the process, I had reached out to Okanogan County Board of elections to inquire about a few precinct shapes that didn't have any election results. I learned that some precincts were combined with other precincts in that election in order to protect voter privacy in precincts with low turnout. They sent me a [spreadsheet](https://github.com/OpenPrecincts/WA18G/blob/master/geometries_missing_results_by_county/Okanogan%20County/Master%20Precinct%20List%20General%20Nov%206%2C02018.xlsx) detailing these aggregations which I executed in QGIS using the dissolve funciton. The Washington SOS's shapefile is missing such revisions, so I believe that this file is more accurate.
