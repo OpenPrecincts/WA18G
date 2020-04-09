@@ -15,7 +15,7 @@ Source files and addiontal supporting documentation can also be found in [this r
 * `county`: County name
 * `countyFips`: County FIPS code
 * `precinct`: Precinct code
-* `prec_name`: Precinct name
+* `prec_name`: Precinct name (not all precincts have a name so its more useful because its a )
 * `FullPrc`: Unique identifier for rows in the source shapefile
 * `G18DSEN`: General 2018 U.S. Senate Democratic Party Candidate
 * `G18RSEN`: General 2018 U.S. Senate Republican Party Candidate
@@ -42,7 +42,7 @@ Source files and addiontal supporting documentation can also be found in [this r
 
 ## Processing
 
-The MIT election results dataset is processed to be sorted by precinct and aggregated by party and office per precinct. Then, the string manipulations in [`match_election_result_to_geometry.py`](https://github.com/OpenPrecincts/WA18G) were applied to find common precinct names between the election results and shapefile. Next, the two files were merged on those common names resulting a succesful matching with a few exception that will be detailed below:
+The MIT election results dataset is processed to be sorted by precinct and aggregated by party and office per precinct. Then, the string manipulations in [`match_election_result_to_geometry.py`](https://github.com/OpenPrecincts/WA18G) were applied to find common precinct names between the election results and shapefile. For a few counties, I used helpful spreadsheets I found online to help bridge the gap between precinct names in the shape file and precinct names in the election results from counties with more disperate precinct names - they can be found in [precinct_name_data](https://github.com/OpenPrecincts/WA18G/tree/master/precinct_name_data).Next, the two files were merged on those common names resulting a succesful matching with a few exception that will be detailed below:
 
 ### Precinct Geometries Missing Election Results
 
