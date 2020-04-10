@@ -55,6 +55,7 @@ All reasons listed in the tables below described why the precinct shapes in the 
 * Precinct geometries that were combined with another precinct by the county were [dissolved](https://grindgis.com/software/qgis/basic-editing-tools-in-qgis) into the precinct to which their votes were allocated.
 
 [Benton](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Benton%20County)
+
 |CountyCd|PrcCode|FullPrc   |prec_name  |population estimate|reason|
 |--------|-------|----------|-----------|----------|----------|
 |BE      |1291   |BE00001291|Ida        |5         | No voters
@@ -71,11 +72,13 @@ All reasons listed in the tables below described why the precinct shapes in the 
 |BE      |99     |BE00000099|Hanford 1  |3         | No voters
 
 [Grant](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Grant%20County)
+
 |CountyCd|PrcCode|FullPrc   |prec_name|population estimate|reason    |
 |--------|-------|----------|---------|----------|----------|
 |GR      |0      |GR00000000|         |0         | No voters|
 
 [Grays Harbor](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/GraysHarbor%20County)
+
 |CountyCd|PrcCode|FullPrc   |prec_name  |population estimate|reason    |
 |--------|-------|----------|-----------|----------|----------|
 |GY      |092    |GY00000092|Ocosta 092 |87        | No voters|
@@ -83,6 +86,7 @@ All reasons listed in the tables below described why the precinct shapes in the 
 
 
 [Lewis](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Lewis%20County)
+
 |CountyCd|PrcCode|FullPrc   |prec_name  |population estimate|reason    |
 |--------|-------|----------|-----------|----------|----------|
 |LE      |20     |LE00000020|Fair       |0         | No Voters|
@@ -93,6 +97,7 @@ All reasons listed in the tables below described why the precinct shapes in the 
 
 
 [Okanogan](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Okanogan%20County)
+
 |CountyCd|PrcCode|FullPrc   |prec_name  |population estimate|reason|
 |--------|-------|----------|-----------|----------|------|
 |OK      |227    |OK00000227|OKANOGAN AIRPORT|3         |Merged “OKANOGAN AIRPORT”/227 into “ELMWAY”/17|
@@ -121,6 +126,7 @@ All reasons listed in the tables below described why the precinct shapes in the 
 |OK      |80     |OK00000080|RODEO TRAIL #1|18        |Merged “RODEO TRAIL #1”/80 into “ELMWAY”/17|
 
 [Pierce County](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Pierce%20County)
+
 |CountyCd|PrcCode|FullPrc   |prec_name|population estimate|reason|
 |--------|-------|----------|---------|----------|----------|
 |PI      |25-275 |PI00025275|25-275   |3         | No voters
@@ -131,6 +137,7 @@ All reasons listed in the tables below described why the precinct shapes in the 
 |PI      |29-662 |PI00029662|29-662   |0         | No voters
 
 [Snohomish county](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Snohomish%20County)
+
 |CountyCd|PrcCode |FullPrc   |prec_name|population estimate|reason|
 |--------|--------|----------|---------|----------|------|
 |SN      |13918904|SN13918904|         |0         |No voters      |
@@ -156,12 +163,14 @@ All reasons listed in the tables below described why the precinct shapes in the 
 |SN      |73238917|SN73238917|         |0         |No voters      |
 
 [Walla Walla](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/WallaWalla%20County)
+
 |CountyCd|PrcCode |FullPrc   |prec_name|population estimate|reason|
 |--------|--------|----------|---------|----------|------|
 |WL      |30      |WL00000030|         |2         | No voters|
 
 
 [Yakima County](https://github.com/OpenPrecincts/WA18G/tree/master/geometries_missing_results_by_county/Yakima%20County)
+
 |CountyCd|PrcCode |FullPrc   |prec_name|population estimate|reason|
 |--------|--------|----------|---------|----------|------|
 |YA      |160     |YA00000160|         |0         |No voters
